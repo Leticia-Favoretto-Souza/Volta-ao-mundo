@@ -1,0 +1,77 @@
+body {
+    background-image: url('img/bandeiraa.jpg'); 
+    background-size: cover; 
+    background-position: center top;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    padding-top: 80px; 
+  }
+  
+  .navbar {
+    padding: 1.5rem 0;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem; 
+    margin: 0 1rem; 
+    padding: 0.5rem 1rem; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  
+  .navbar-toggler {
+    font-size: 1.2rem; 
+  }
+  
+  .navbar .form-control {
+    font-size: 1.1rem; 
+  }
+  
+  .navbar .btn {
+    font-size: 1.1rem; 
+  } 
+
+.box h1{
+    color: rgb(10, 136, 174);
+    margin-bottom: 1.5rem;
+}
+
+.box h2{
+  color: rgb(10, 136, 174);
+  margin-bottom: 1.5rem;
+}
+
+.box h3{
+  color: rgb(10, 136, 174);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.box p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 1.5rem; 
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 200px;
+  object-fit: cover; 
+}
+
+.mb-4 {
+  margin-bottom: 3rem !important; 
+}
+
+ul{
+  text-align: justify;
+}
+li{
+  margin-bottom: 20px;
+}
