@@ -81,3 +81,21 @@ li{
   height: 200px; 
   object-fit: cover; 
 }
+
+/* Ajustes para o carrossel */
+.carousel {
+  max-width: 300px;  /* ou o tamanho que preferir */
+  margin: 0 auto;
+
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 450px;  /* altura fixa */
+  object-fit: cover;  /* mantém a proporção */
+  width: 100%;
+}
